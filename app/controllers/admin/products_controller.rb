@@ -7,6 +7,7 @@ class Admin::ProductsController < ApplicationController
 
   def new
     @product = Product.new
+    @category = Category.new
   end
 
   def create
@@ -17,7 +18,18 @@ class Admin::ProductsController < ApplicationController
     else
       render :new
     end
+    @category = Category.new(category_params)
+
+    if @category.save
+      redirect_to [:admin, :products], notice: 'Category created!'
+    else
+      render :new
+    end
   end
+
+
+
+
 
   def destroy
     @product = Product.find params[:id]
@@ -35,6 +47,12 @@ class Admin::ProductsController < ApplicationController
       :quantity,
       :image,
       :price
+    )
+  end
+
+  def category_params
+    params.require(:category).permit(
+      :name
     )
   end
 
