@@ -15,3 +15,37 @@ body {
 form.button_to {
   display: inline;
 }
+
+.user-auth {
+  border-radius: 10px;
+  padding: 30px;
+  width: 40vw;
+  display: inline-block;
+  margin-top: 5vw;
+  font-weight: bold;
+}
+.form-fields {
+  padding-top: 10px;
+}
+
+button.btn.btn-success {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+button.btn.btn-success a {
+  color: white;
+}
+
+.rightside {
+  display: inline-flex;
+}
+
+.nav.navbar-nav.navbar-right {
+  display: inline-flex;
+}
+
+.user-options {
+  display: flex;
+  padding: 10px;
+  width: 150px;
+}

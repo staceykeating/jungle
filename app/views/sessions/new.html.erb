@@ -1,9 +1,14 @@
+
+<div class="user-auth"> 
 <h1>Login</h1>
 
+
 <%= form_tag '/login' do %>
-
-  Email: <%= text_field_tag :email %>
-  Password: <%= password_field_tag :password %>
-  <%= submit_tag "Submit" %>
-
-<% end %>
+  <div class="form-fields" > Email </div>
+  <%=text_field_tag :email %>
+  <div class="form-fields"> Password</div>
+  <%=password_field_tag :password %>
+  <div class="form-fields"><%= submit_tag "Submit" %></div>
+  <% end %>
+  </div>
+</div>
