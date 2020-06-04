@@ -27,6 +27,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Final Product
 
-!["Screenshot of Home Page"](https://github.com/staceykeating/scheduler/blob/master/docs/Add-interview.png)
-!["Screenshot of My Cart"](https://github.com/staceykeating/scheduler/blob/master/docs/Delete-confirmation.png)
-!["Screenshot of Order Summary"](https://github.com/staceykeating/scheduler/blob/master/docs/Delete-confirmation.png)
+!["Screenshot of Home Page"](https://github.com/staceykeating/jungle/blob/master/docs/jungle%20home-view.png)
+!["Screenshot of My Cart"](https://github.com/staceykeating/jungle/blob/master/docs/jungle%20cart-view.png)
+!["Screenshot of Order Summary"](https://github.com/staceykeating/jungle/blob/master/docs/jungle%20order-view.png)
